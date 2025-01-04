@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blocks {
+  @apply bg-tiles;
+}
+
+.blocks-grid {
+  @apply border-solid border-2 border-white;
+}

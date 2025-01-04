@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-body">
+    <div class="h-screen grid grid-cols-7">
+      <div class="col-span-3 flex flex-col gap-4 items-center justify-center">
+        <div>
+          <div
+            class="flex flex-col justify-center items-center text-white font-nunito"
+          >
+            <h1 class="font-silkscreen text-2xl my-2">
+              <span>Create a grid</span>
+            </h1>
+
+            Height: <br /><input
+              id="height"
+              class="bg-tiles"
+              type="text"
+            /><br />
+            Width: <br /><input
+              id="length"
+              class="bg-tiles"
+              type="text"
+            /><br />
+            <button class="mb-2 text-sm text-gray-400">Create area</button>
+            Choose a custom color: <br /><input
+              id="color"
+              class="bg-tiles"
+              type="text"
+            />
+            <button>Toogle grid</button>
+            <h1 class="font-silkscreen text-2xl my-2">
+              <span>Then color it</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-span-4 border-4 p-10 border-solid border-indigo-600 flex items-center justify-center"
+      >
+        <div
+          id="parent"
+          class="h-full w-full bg-black text-white"
+          id="container"
+        ></div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
