@@ -22,7 +22,7 @@ function addCards(){
     
 } 
 
-
+  
 let bool = false
 function toogleGrid(){
     let cards =  document.querySelectorAll(".blocks");
