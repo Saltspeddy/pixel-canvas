@@ -1,4 +1,3 @@
-
 let contor = 1;
 
 function addCards(){
@@ -19,12 +18,16 @@ function addCards(){
         document.querySelector("#container").innerHTML += '<div class="blocks" ondragover="add(event)" onclick="addColor(event)"></div>';
         contor++;
     }
-}  
-
+    
+}
 let color
 function changeColor(event){
     color = document.querySelector("#color").value;
     color = "#" + color
+}
+
+function colorPicker(colorPicker){
+    color = "#" + colorPicker
 }
 
 function addColor(event){
@@ -47,3 +50,4 @@ function toogleGrid(){
     }
     bool = !bool;
 }
+
