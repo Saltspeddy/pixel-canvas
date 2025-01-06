@@ -8,7 +8,9 @@ module.exports = {
         tiles: 'hsl(213, 19%, 18%)',
       },
       fontFamily:{
-
+        lobster: 'Lobster',
+        silkscreen: 'Silkscreen',
+        nunito: 'Nunito',
       }
     },
 
