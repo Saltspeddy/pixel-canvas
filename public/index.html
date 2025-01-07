@@ -1,5 +1,3 @@
-html
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,12 +20,12 @@ html
 
             Height: <br /><input
               id="height"
-              class="bg-tiles"
+              class="bg-tiles p-2 rounded-md"
               type="text"
             /><br />
             Width: <br /><input
               id="length"
-              class="bg-tiles"
+              class="bg-tiles p-2 rounded-md"
               type="text"
             /><br />
             <button class="mb-2 text-sm text-gray-400" onclick="addCards()">
@@ -35,8 +33,9 @@ html
             </button>
             Choose a custom color: <br /><input
               oninput="changeColor()"
+              onclick="switchMode()"
               id="color"
-              class="bg-tiles"
+              class="bg-tiles p-2 rounded-md"
               type="text"
             />
             <button onclick="toogleGrid()">Toogle grid</button>
