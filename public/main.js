@@ -8,12 +8,12 @@ function addCards(){
 
     let height = parseInt( document.querySelector("#height").value);
     if( height > 40 ){
-        alert("the maximum input for height is 30")
+        alert("the maximum input for height is 40")
         return
     } 
     let length = parseInt( document.querySelector("#length").value);
     if( length > 40 ){
-        alert("the maximum input for length is 30")
+        alert("the maximum input for length is 40")
         return
     } 
     let parent = document.querySelector("#parent");  
